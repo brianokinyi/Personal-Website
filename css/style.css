@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
     font-size: 100%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arial Verdana', sans-serif;
 	background:#ffffff;
 	margin: 0;
 }
@@ -16,7 +16,7 @@ p,ul li,ol li{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Cairo', sans-serif;
+	font-family: 'Arial Verdana', sans-serif;
 }
 ul,label{
 	margin:0;
@@ -350,7 +350,7 @@ a.w3_agile_vimeo:hover{
     line-height: 1.1em;
     text-transform: uppercase;
     font-weight: 900;
-    text-shadow: 3px 3px #146eb4;
+    /*text-shadow: 3px 3px #146eb4;*/
 }
 .w3_banner_info_grid  h5 {
     font-size: 20px;
@@ -523,7 +523,7 @@ b, strong {
     text-transform: uppercase;
     margin-bottom: 50px;
     outline-offset: 12px;
-    outline: 7px double #ff4f81;
+    /*outline: 7px double #ff4f81;*/
     outline-offset: 6px;
     width: 22%;
 	color: #146eb4;
@@ -632,7 +632,7 @@ b, strong {
 .skills,.contact,.education,.about,.portfolio{
 	padding:5em 0;
 }
-.skill-grids-right {
+.skill-grids-right { /*Will use it to center skills*/
     margin-top: 1em;
 }
 .skill-grids h2, .contact-left h3{
