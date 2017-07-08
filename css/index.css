@@ -1,5 +1,5 @@
 body {
-	font-family: 'Cairo', sans-serif;
+	font-family: sans-serif;
 }
 
 p{
@@ -45,7 +45,7 @@ p{
 
 .skillbar-title span {
 	display:block;
-	background:rgba(0, 0, 0, 0.15);
+	/*background:rgba(0, 0, 0, 0.15);*/
 	padding:0 20px;
 	height:30px;
 	line-height:30px;
