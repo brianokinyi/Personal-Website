@@ -3,6 +3,9 @@
 @Brian Manoti Okinyi
 Layout by W3layouts
 */
+	$email_to = "brianokinyi.bo@gmail.com";
+	$email_subject = "</ CONTACT@MY_PORTFOLIO >";
+
 	if(isset($_POST["submit"])){
 		// Checking For Blank Fields..
 		if($_POST["Name"]==""||$_POST["Phone"]==""||$_POST["Email"]==""||$_POST["Message"]==""){
