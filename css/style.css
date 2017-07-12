@@ -1905,3 +1905,35 @@ iframe {
     background:#f2f2f5
 }
 
+
+
+/*Custom layout*/
+.pop_banner_info {
+    margin: 1em 0 0em;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+}
+.pop_banner_info_grid h2 {
+    font-size: 3em;
+    color: #ffffff;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    /*text-shadow: 3px 3px #146eb4;*/
+}
+.pop_banner_info_grid  h5 {
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    color: #000;
+}
+.pop_banner_info_grid ul li{
+    display:inline-block;
+    font-size:1em;
+}
+.pop_banner_info_grid ul li a{
+    padding:9px 30px;
+    text-decoration:none;
+    color:#212121;
+}
