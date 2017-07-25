@@ -3,7 +3,7 @@ if(isset($_POST['Email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "brianokinyi.bo@gmail.com";
-    $email_subject = "NEW COMMENT @brianokinyi";
+    $email_subject = "<b>Someone sent you a comment</b>";
  
     function died($error) {
         // your error code can go here
