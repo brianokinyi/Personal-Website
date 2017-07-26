@@ -1,0 +1,16 @@
+.address-list{
+	color: #989494;
+}
+.address-list li{
+	display: inline-block;
+	margin-top: 1em;
+	padding: 1.2em 1.2em;
+	color: 7e8890;
+}
+.address-list li a {
+    color: #989494;
+	text-decoration:none;
+}
+.address-list li a:hover{
+    color: #f31313;
+}
