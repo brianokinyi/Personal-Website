@@ -76,9 +76,10 @@ if(isset($_POST['Email'])) {
  
 <!-- include your own success html here -->
  
-Thank you for contacting me. I will be in touch with you very soon.
+
  
 <?php
+header("refresh:2;url='../index.html'");
  
 }
 ?>
