@@ -3,13 +3,16 @@
 @Brian Manoti Okinyi
 Layout by W3layouts
 */
-	$email_to = "brianokinyi.bo@gmail.com";
-	$email_subject = "</ CONTACT@MY_PORTFOLIO >";
+	$email_subject = "Message from brianokinyi.co.ke";
 
 	if(isset($_POST["submit"])){
 		// Checking For Blank Fields..
 		if($_POST["Name"]==""||$_POST["Phone"]==""||$_POST["Email"]==""||$_POST["Message"]==""){
-			echo "Fill All Fields..";
+			?>
+				<script type="text/javascript">
+					window.alert("All fields should be filled.");
+				</script>
+			<?php
 		}
 		else{
 			// Check if the "Sender's Email" input field is filled out
@@ -19,7 +22,11 @@ Layout by W3layouts
 			// Validate E-mail Address
 			$email= filter_var($email, FILTER_VALIDATE_EMAIL);
 			if (!$email){
-				echo "Invalid Sender's Email";
+				?>
+					<script type="text/javascript">
+						window.alert("Invalid email. Try again.");
+					</script>
+				<?php
 			}else{
 				$message = $_POST['Message'];
 				$headers = 'From:'. $email . "\r\n"; // Sender's Email
@@ -28,7 +35,11 @@ Layout by W3layouts
 				$message = wordwrap($message, 70);
 				// Send Mail By PHP Mail Function
 				mail("brianokinyi.bo@gmail.com", $subject, $message, $headers);
-				echo "Your mail has been sent successfuly ! Thank you for your feedback";
+				?>
+					<script type="text/javascript">
+						window.alert("Thank you for your feedback. I will be back at you friend.");
+					</script>
+				<?php
 			}
 		}
 	}
