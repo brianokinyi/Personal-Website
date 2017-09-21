@@ -1,9 +1,8 @@
 <?php
 if(isset($_POST['Email'])) {
  
-    // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "brianokinyi.bo@gmail.com";
-    $email_subject = "<b>Someone sent you a comment</b>";
+    $email_subject = "New comments at brianokinyi.co.ke";
  
     function died($error) {
         // your error code can go here
@@ -72,13 +71,7 @@ if(isset($_POST['Email'])) {
 	'Reply-To: '.$email_from."\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 	@mail($email_to, $email_subject, $email_message, $headers);  
-?>
- 
-<!-- include your own success html here -->
- 
 
- 
-<?php
 header("refresh:2;url='../index.html'");
  
 }
